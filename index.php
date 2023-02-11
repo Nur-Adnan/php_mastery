@@ -17,6 +17,15 @@
         echo $html_element;
         $name = "Hello World";
         echo "<h1>Hello</h1>";
+
+        // let's do some math in php
+        echo 45 + 30;
+        echo "<br>";
+        echo "<br>";
+        echo 45 -15;
+        echo "<br>";
+        echo "<br>";
+        echo 45 * 5;
     ?>
 
     <h1><?php echo $name ?></h1>
