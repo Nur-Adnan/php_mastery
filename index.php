@@ -7,7 +7,12 @@
     <title>First Program In PHP</title>
 </head>
 <body>
+
+<!-- Data type terms in PHP -->
     <?php 
+        $username= "Adnan";
+        $number_list= 100.5;
+        echo $username . " " . $number_list;
         $name = "Hello World";
         echo "<h1>Hello</h1>";
     ?>
