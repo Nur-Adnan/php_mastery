@@ -13,6 +13,8 @@
         $username= "Adnan";
         $number_list= 100.5;
         echo $username . " " . $number_list;
+        $html_element = "<h1>Hello Adnan</h1>";
+        echo $html_element;
         $name = "Hello World";
         echo "<h1>Hello</h1>";
     ?>
