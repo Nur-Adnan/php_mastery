@@ -26,6 +26,22 @@
         echo "<br>";
         echo "<br>";
         echo 45 * 5;
+
+
+        echo "<br>";
+        echo "<br>";
+        $number_Lists = array(23,4,5,6,7,8,"<h1>I love Arrays</h1>");
+        $number_lists = array();
+        $number_lists = [23,23,3,4];
+
+        echo $number_Lists[0];
+        echo "<br>";
+        echo "<br>";
+        echo $number_lists[2];
+        echo "<br>";
+        echo "<br>";
+        print_r($number_Lists);
+
     ?>
 
     <h1><?php echo $name ?></h1>
